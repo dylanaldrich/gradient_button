@@ -30,22 +30,22 @@ h2 {
 
 @keyframes changecolor {
     0%{
-        color: indigo;
+        color: red;
     }
     20%{
-        color: green;
+        color: orange;
     }
     40%{
-        color: turquoise;
+        color: goldenrod;
     }
     60%{
-        color: blue;
+        color: green;
     }
     80%{
-        color: chartreuse;
+        color: blue;
     }
     100%{
-        color: crimson;
+        color: purple;
     }
 }
 
