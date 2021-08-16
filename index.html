@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script
         src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
@@ -14,10 +15,11 @@
     </head>
     <body>
         <section>
-            <h1>Click the button below to generate a random gradient hex color combination.</h1>
-            
-            <h3 id="hex-codes"></h3>
-            <button id="my-btn">Click at your own risk</button>
+            <div id="hex-colors">
+                <h1>Click the button below to generate a random gradient hex color combination.</h1>
+                <h2>The hex code of the color is #<span id="hex-code">00000</span></h2>
+                <button type="button" class="btn btn-primary" id="my-btn">Click at your own risk</button>
+            </div>
         </section>
         <script src="app.js"></script>
     </body>
