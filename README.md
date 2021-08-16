@@ -4,4 +4,4 @@
 
 I used JavaScript, HTML/CSS, Bootstrap and DOM manipulation for this mini-project.
 
-[gradient screenshot]('./gradient_screenshot.png')
+[gradient screenshot](gradient_screenshot.png)
